@@ -44,6 +44,16 @@ button {
   font-style: italic;
 }
 
+.refresh-arrow,
+.refresh-arrow:link,
+.refresh-arrow:visited,
+.refresh-arrow:hover,
+.refresh-arrow:active {
+  font-weight: bold;
+  color: var(--text-primary-light);
+  text-decoration: none;
+}
+
 /* GAME */
 
 .game-container {
@@ -185,9 +195,9 @@ button {
     font-size: 12px;
   }
 
-.scores-container {
+  .scores-container {
     max-width: 200px;
-}
+  }
 
   .scores-box {
     width: 100px;
