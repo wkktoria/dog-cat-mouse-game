@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dog Cat Mouse Game</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">DOG CAT MOUSE</h1>
+    </header>
+
+    <div class="game-container">
+      <div class="game-content">
+        <h2 id="gameResultInfo" class="game-result-info">Choose your pet</h2>
+        <h3 id="gameResultMessage" class="game-result-message">
+          Score 5 points to win the game!
+        </h3>
+
+        <div class="game-rules-container">
+            <h3 class="game-rules-heading">Game Rules:</h3>
+          <ul class="game-rules">
+            <li class="game-rule">Dog beats cat. Dog is beaten by mouse.</li>
+            <li class="game-rule">Cat beats mouse. Mouse is beaten by dog.</li>
+            <li class="game-rule">Mouse beats dog. Mouse is beaten by cat.</li>
+          </ul>
+        </div>
+
+        <div class="scores-container">
+          <div class="scores-box">
+            <div class="sign" id="playerSign">⬜</div>
+            <p class="score" id="playerScore">Player: 0</p>
+          </div>
+          <div class="scores-box">
+            <div class="sign" id="computerSign">⬜</div>
+            <p class="score" id="computerScore">Computer: 0</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="btn" id="dogBtn">
+          <div class="sign">🐶</div>
+        </button>
+        <button class="btn" id="catBtn">
+          <div class="sign">🐱</div>
+        </button>
+        <button class="btn" id="mouseBtn">
+          <div class="sign">🐭</div>
+        </button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <a href="https://github.com/wkktoria"> @wkktoria </a>
+    </footer>
+  </body>
+</html>
